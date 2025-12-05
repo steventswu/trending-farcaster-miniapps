@@ -1,0 +1,25 @@
+{
+  "accountAssociation": {
+    "domain": "your-domain.com",
+    "username": "steventswu"
+  },
+  "frame": {
+    "name": "Trending Mini Apps Leaderboard",
+    "iconUrl": "https://your-domain.com/icon.png",
+    "homeUrl": "https://your-domain.com/app/index.html",
+    "webhookUrl": "https://your-domain.com/webhook",
+    "subtitle": "Discover the most popular Farcaster Mini Apps.",
+    "description": "A leaderboard of the most trending Farcaster Mini Apps, updated in real-time.",
+    "screenshotUrls": [
+      "https://your-domain.com/screenshot1.png",
+      "https://your-domain.com/screenshot2.png"
+    ],
+    "primaryCategory": "social",
+    "tags": ["leaderboard", "trending", "miniapps", "farcaster"],
+    "heroImageUrl": "https://your-domain.com/hero-image.png",
+    "tagline": "Find the next big thing on Farcaster.",
+    "ogTitle": "Trending Mini Apps Leaderboard",
+    "ogDescription": "Discover the most popular Farcaster Mini Apps.",
+    "ogImageUrl": "https://your-domain.com/og-image.png"
+  }
+}

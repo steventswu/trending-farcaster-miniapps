@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trending Mini Apps Leaderboard</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="fc:frame" content="vNext" />
+  <meta name="fc:frame:image" content="https://your-domain.com/og-image.png" />
+  <meta name="fc:frame:button:1" content="View Leaderboard" />
+  <meta name="fc:frame:button:1:action" content="post_redirect" />
+  <meta name="fc:frame:post_url" content="https://your-domain.com/app/index.html" />
+</head>
+<body>
+  <div class="fc-root">
+    <div class="fc-header">
+      <h1>Trending Mini Apps</h1>
+    </div>
+    <div class="fc-container">
+      <ul id="leaderboard-list" class="fc-list">
+        <!-- Leaderboard items will be injected here by JavaScript -->
+      </ul>
+      <div id="detail-view" class="fc-detail-view" style="display: none;">
+        <div id="detail-content"></div>
+        <button id="cast-button" class="fc-button">Cast this app</button>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
